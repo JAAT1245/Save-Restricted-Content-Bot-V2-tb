@@ -111,7 +111,7 @@ async def send_video_with_chat_id(client, sender, path, caption, duration, hi, w
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading: [Team SPY](https://t.me/devgaganin)__**\n ',
+                '**__Uploading: [Team CR CHOUDHARY 👀](https://t.me/TARGETALLCOURSE)__**\n ',
                 upm,
                 time.time()
             )
@@ -145,7 +145,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading:__**\n**__Bot made by [Team SPY](https://t.me/devgaganin)__**',
+                '**__Uploading:__**\n**__Bot made by [Team Cr choudhary](https://t.me/TARGETALLCOURSE)__**',
                 upm,
                 time.time()
             )
@@ -495,7 +495,7 @@ async def get_bulk_msg(userbot, client, sender, msg_link, i):
 
 # ------------------------ Button Mode Editz FOR SETTINGS ----------------------------
 
-SESSION_CHANNEL = -1002149976449
+SESSION_CHANNEL = -1002316461637
 # MongoDB database name and collection name
 DB_NAME = "smart_users"
 COLLECTION_NAME = "super_user"
@@ -607,7 +607,7 @@ async def set_rename_command(user_id, custom_rename_tag):
 # Function to get the user's custom renaming preference
 def get_user_rename_preference(user_id):
     # Retrieve the user's custom renaming tag if set, or default to '@devgaganin'
-    return user_rename_preferences.get(str(user_id), '@devgaganin')
+    return user_rename_preferences.get(str(user_id), '@targetallcourse')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
@@ -634,7 +634,7 @@ async def settings_command(event):
         [Button.inline("Remove Words", b'delete')],
         [Button.inline("Login", b'addsession'), Button.inline("Logout", b'logout')],
         [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
-        [Button.url("Report Errors", "https://t.me/devgaganin")]
+        [Button.url("Report Errors", "https://t.me/Free_course2_bot")]
     ]
     
     await gagan.send_file(

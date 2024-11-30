@@ -26,7 +26,7 @@ def home():
         }
     </style>
     <footer>
-        Made with 💕 by Team SPY
+        Made with 💕 by Team CR CHOUDHARY 
     </footer>
     """
 
